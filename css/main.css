@@ -1,0 +1,94 @@
+body {
+  font-family: Lucida, Helvetica, sans-serif;
+  color: #000000;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+background-color: #96a8c8;
+
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 1rem;
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #96a8c8;
+}
+a:hover {
+  color: #dfe1e6;
+  
+}
+li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #96a8c8;
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+  transform: translateY(4px);
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+  
+}
+
+time {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+figure {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.comic-container {
+  background-color: #ffffff;
+  padding: 1rem;
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 10px;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
